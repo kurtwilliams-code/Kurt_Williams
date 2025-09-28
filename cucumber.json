@@ -1,0 +1,33 @@
+{
+"default": {
+    "dryRun": false,
+    "paths": [
+       
+        "tests/features/time.feature"
+    ],
+    "require": [
+        "tests/steps/time.js"
+    ],
+    "formatOptions": {
+        "snippetInterface": "async-await"
+
+    },
+    "format": [
+        [
+            "html",
+            "html: cucumber-report.html"
+        ],
+        "summary",
+
+        "progress-bar",
+
+        "json:./cucumber-report.json"
+
+
+    ]
+
+}
+
+
+
+}
